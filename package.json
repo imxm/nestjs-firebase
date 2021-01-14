@@ -2,12 +2,15 @@
   "name": "nestjs-firebase",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index",
+  "types": "dist/index",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf dist && tsc",
+    "prepublish": "npm run build"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "imxm",
+  "license": "MIT",
   "dependencies": {
     "@nestjs/common": "^7.6.5",
     "firebase-admin": "^9.4.2",
