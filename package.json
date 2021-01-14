@@ -1,0 +1,21 @@
+{
+  "name": "nestjs-firebase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nestjs/common": "^7.6.5",
+    "firebase-admin": "^9.4.2",
+    "rxjs": "^6.6.3"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.20",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.1.3"
+  }
+}
